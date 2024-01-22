@@ -1,0 +1,47 @@
+nav {
+    background: var(--color-white);
+    border: 2px solid;
+    height: max-content;
+    display: flex;
+    /* padding: 0.7rem 1.7rem; */
+    margin: auto;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2.5%; 
+    /* gap: 0.8rem;   */
+    /* backdrop-filter: blur(15px);  */
+}
+
+nav a {
+    background: transparent;
+    padding: 1rem;
+    display: block;
+    font-size: 1.15rem;
+    text-align: center;
+}
+
+nav a:hover{
+    background: var(--color-grey);
+
+}
+
+/* MEDIA QUERIES (TABLET DEVICES) */
+@media screen and (max-width: 1024px) {
+
+    nav {
+        bottom: 1.5rem;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+}
+
+/* MEDIA QUERIES (MOBILE DEVICES) */
+@media screen and (max-width: 600px) {
+    nav a {
+        font-size: .8rem;
+        padding: 0.1rem;
+    }
+}

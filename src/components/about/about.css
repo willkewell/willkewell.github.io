@@ -1,0 +1,55 @@
+#about {
+    position: relative;
+    /* padding-top: 5vh; */
+    padding-bottom: 5vh;
+}
+
+.about__container {
+    height: 70vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#about > h2 {
+    margin-bottom: 2rem;
+}
+
+.about__container {
+    display: grid;
+    padding: 2.5rem;
+    width: max-content;
+    /* grid-template-columns: 35% 50%;
+    gap: 15%; */
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.about__card {
+    background: var(--color-white);
+    border: 2px solid;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: var(--color-grey);
+    border-color: transparent;
+}
+
+.h5-hidden {
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.about__scroll__down {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 12rem;
+    bottom: 4rem;
+}
