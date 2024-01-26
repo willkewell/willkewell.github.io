@@ -11,6 +11,8 @@
 .contact__container {
     height: 70vh;
     display: flex;
+    padding: 0 2.5rem 0 2.5rem;
+    gap: 1.5rem;
 }
 
 .contact__me {
@@ -20,15 +22,16 @@
 }
 
 .contact__me-image {
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 1.5rem 0 0 0;
     /* object-fit: cover; */
-    max-width: 600px;
+    max-width: 550px;
     height: auto;
 }
 
 .contact__socials {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 0.5rem;
 }
 
 .contact__socials a {
@@ -47,11 +50,13 @@
 }
 
 .contact__content {
+    padding-top: 1.5rem;
     width: 50%;
 }
 
 /* ================ FORM ================ */
 form {
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -62,4 +67,5 @@ input, textarea {
     padding: 1.5rem;
     background: transparent;
     border: 2px solid var(--color-black);
+    resize: none;
 }
