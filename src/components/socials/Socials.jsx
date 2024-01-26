@@ -4,9 +4,9 @@ import { GrGithub } from "react-icons/gr";
 import { GrDocumentDownload } from "react-icons/gr";
 import CV from '../../assets/W-Kewell-CV.pdf'
 
-const ContactSocials = () => {
+const Socials = ({ className }) => {
   return (
-    <div className="contact__socials">
+    <div className={className}>
         <a href="https://www.linkedin.com/in/william-kewell-065a681b9/" rel='opener'><GrLinkedin /></a>
         <a href="https://github.com/willkewell" rel='opener'><GrGithub /></a>
         <a href={CV} download><GrDocumentDownload />CV</a>
@@ -14,4 +14,4 @@ const ContactSocials = () => {
   )
 }
 
-export default ContactSocials
+export default Socials
