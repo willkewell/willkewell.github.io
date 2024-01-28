@@ -11,13 +11,17 @@ header {
     height: 75vh;
     display: flex;
     position: relative;
+    /* gap: 2rem;s */
 }
 
 .header__content {
-    justify-content: center;
-    text-align: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    text-align: right;
     position: relative;
-    margin: 2.5rem;
+    margin-right: 4rem;
 }
 
 /* CTA STYLING */
@@ -25,22 +29,22 @@ header {
     margin-top: 2.5rem;
     display: flex;
     gap: 1rem;
-    justify-content: left;
+    justify-content: end;
 }
 
 /* PORTRAIT STYLING */
 
 .header__me {
-    width: 33%;
+    width: 50%;
     position: relative;
     /* margin: 1.5rem; */
     display: flex;
     z-index: 2;
 }
 
-.header__me-image {
-    height: 100%;
-    width: 100%;
+.header__me-image img {
+    max-width: 500px;
+    height: auto;
     position: relative;
     z-index: 2;
 }
@@ -49,8 +53,9 @@ header {
     position: absolute;
     background: transparent;
     border: 2px solid;
-    width: 100%;
-    padding-top: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    padding-top: width/height;
     left: -7.5%;
     top: 5%;
     z-index: 1;

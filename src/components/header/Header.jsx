@@ -16,8 +16,8 @@ const Header = () => {
             <div className="header__me">
               <div className="header__me-image">
                 <img src={ME} alt="" />
+                <div className="header__me-deco" />
               </div>
-              <div className="header__me-deco" />
             </div>
 
             <div className="header__container-deco" />                
