@@ -20,7 +20,8 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="header__container-deco" />                
+            <div className="header__container-deco" /> 
+
         </div>
 
         <a href="#about" className='scroll__down header__scroll__down'>Scroll Down →</a>  

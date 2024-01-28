@@ -11,7 +11,7 @@
 
 .portfolio__container {
     display: grid;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 /* .portfolio__container :hover {
@@ -20,11 +20,11 @@
 } */
 
 .portfolio__items {
-    height: 80vh;
+    /* height: 80vh; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: .5rem;
-    padding: .5rem 2.5rem;
+    padding: 2.5rem 2.5rem;
 }
 
 .portfolio__item {
@@ -74,6 +74,11 @@
 
 /* MEDIA QUERIES (TABLET DEVICES) */
 @media screen and (max-width: 1024px) {
+
+    .portfolio__items {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
     .portfolio__item h3 {
         font-size: .8rem;
     }

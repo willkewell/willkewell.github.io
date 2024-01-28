@@ -26,7 +26,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 5rem;
 }
 
 .about__card {
@@ -52,4 +52,20 @@
     transform: rotate(90deg);
     right: 12rem;
     bottom: 4rem;
+}
+
+/* MEDIA QUERIES (TABLET DEVICES) */
+@media screen and (max-width: 1024px) {
+    .about__container {
+        height: fit-content;
+    }
+    .about__cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+/* MEDIA QUERIES (MOBILE DEVICES) */
+@media screen and (max-width: 600px) {
+    
 }

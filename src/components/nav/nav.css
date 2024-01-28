@@ -39,6 +39,11 @@ nav a:hover{
 
 /* MEDIA QUERIES (MOBILE DEVICES) */
 @media screen and (max-width: 600px) {
+
+    nav {
+        bottom: 1rem;
+    }
+    
     nav a {
         font-size: .8rem;
         padding: 0.1rem;
