@@ -95,9 +95,10 @@ const Experience = () => {
               </article>
             </div>
         </div>
-      </div>
 
-      <a href="#portfolio" className='scroll__down experience__scroll__down'>Scroll Down →</a>
+        <a href="#portfolio" className='scroll__down experience__scroll__down'>Scroll Down →</a>
+        
+      </div>
     </section>
   )
 }

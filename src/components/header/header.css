@@ -12,7 +12,7 @@ header {
     height: 75vh;
     display: flex;
     position: relative;
-    /* gap: 2rem;s */
+    /* gap: 4rem; */
 }
 
 .header__content {
@@ -22,7 +22,7 @@ header {
     justify-items: end;
     text-align: right;
     position: relative;
-    margin-right: 4rem;
+    padding-right: 2rem;
 }
 
 /* CTA STYLING */
@@ -38,6 +38,7 @@ header {
 .header__me {
     height: 100%;
     width: 50%;
+    margin-left: 4rem;
     z-index: 2;
 }
 
@@ -79,7 +80,7 @@ header {
 .header__scroll__down {
     position: absolute;
     transform: rotate(90deg);
-    right: 12rem;
+    right: -3rem;
     bottom: 4rem;
 }
 

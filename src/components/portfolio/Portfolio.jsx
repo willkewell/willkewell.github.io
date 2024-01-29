@@ -76,9 +76,8 @@ const Portfolio = () => {
                     })
                 }
             </div>
+          <a href="#contact" className='scroll__down portfolio__scroll__down'>Scroll Down →</a>
         </div>
-
-        <a href="#contact" className='scroll__down portfolio__scroll__down'>Scroll<br />Down →</a>
     </section>
   )
 }

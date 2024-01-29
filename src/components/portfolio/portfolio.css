@@ -12,6 +12,7 @@
 .portfolio__container {
     display: grid;
     /* height: 80vh; */
+    position: relative;
 }
 
 /* .portfolio__container :hover {
@@ -68,15 +69,15 @@
 .portfolio__scroll__down {
     position: absolute;
     transform: rotate(90deg);
-    right: 15rem;
-    bottom: 1rem;
+    right: -3rem;
+    bottom: 4rem;
 }
 
 /* MEDIA QUERIES (TABLET DEVICES) */
 @media screen and (max-width: 1024px) {
 
     .portfolio__items {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr;
     }
     .portfolio__item h3 {
@@ -90,5 +91,7 @@
 
 /* MEDIA QUERIES (MOBILE DEVICES) */
 @media screen and (max-width: 600px) {
-
+    .portfolio__items {
+        grid-template-columns: 1fr;
+    }
 }

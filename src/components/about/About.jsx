@@ -46,10 +46,10 @@ const About = () => {
 
                 <a href="#contact" className='btn btn-primary'>Learn More</a>
             </div> 
-        </div>
 
-        <a href="#experience" className='scroll__down about__scroll__down'>Scroll Down →</a>     
-        
+            <a href="#experience" className='scroll__down about__scroll__down'>Scroll Down →</a>     
+
+        </div>
     </section>
   )
 }

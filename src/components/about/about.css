@@ -8,6 +8,7 @@
     height: 70vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    position: relative;
 }
 
 #about > h2 {
@@ -50,7 +51,7 @@
 .about__scroll__down {
     position: absolute;
     transform: rotate(90deg);
-    right: 12rem;
+    right: -3rem;
     bottom: 4rem;
 }
 

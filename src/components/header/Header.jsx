@@ -22,9 +22,9 @@ const Header = () => {
 
             <div className="header__container-deco" /> 
 
-        </div>
+            <a href="#about" className='scroll__down header__scroll__down'>Scroll Down →</a> 
 
-        <a href="#about" className='scroll__down header__scroll__down'>Scroll Down →</a>  
+        </div>
     </header>
   )
 }
