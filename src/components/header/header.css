@@ -6,10 +6,10 @@ header {
 }
 
 .header__container {
+    height: 80vh;
     padding: 0 2.5rem 0 2.5rem;
     align-items: center;
     justify-content: center;
-    height: 75vh;
     display: flex;
     position: relative;
     /* gap: 4rem; */
@@ -40,6 +40,10 @@ header {
     width: 50%;
     margin-left: 4rem;
     z-index: 2;
+}
+
+.header__content {
+    padding-right: 0;
 }
 
 .header__me-image {
@@ -82,18 +86,19 @@ header {
     transform: rotate(90deg);
     right: -3rem;
     bottom: 4rem;
+    z-index: 2;
 }
 
 /* MEDIA QUERIES (TABLET DEVICES) */
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        /* height: 100vh; */
         padding-top: 2rem;
         /* padding: 2rem; */
     }
 
     .header__container {
-        height: 80vh;
+        /* height: 80vh; */
         display: flex;
         position: relative;
         flex-direction: column;
@@ -114,42 +119,45 @@ header {
 
     .header__me {
         height: fit-content;
-        padding-top: 4rem;
-        /* margin: 0 auto; */
+        /* padding-top: 4rem; */
+        margin: 4rem auto;
         /* position: relative; */
         /* justify-content: center; */
         /* align-items: center; */
     }
 
+    .header__me-image {
+
+    }
+
     .header__container-deco {
-        padding-bottom: 8rem;
-        position: relative;
-        /* background: var(--color-black); */
-        background: transparent;
+        position: absolute;
+        background: var(--color-black);
+        /* background: transparent; */
         width: 100%;
-        height: 8rem;
+        height: 14%;
         left: 0;
-        bottom: 10rem;
+        top: auto;
+        bottom: 6%;
         z-index: 1;
+    }
+
+    .header__scroll__down {
+        bottom: 27%;
     }
 }
 
 /* MEDIA QUERIES (MOBILE DEVICES) */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .header__container {
-        height: 80vh;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        justify-content: center;
-        padding: 6rem 0 0 0;
+        padding-top: 0;
     }
 
-    .header__socials, .scroll__down {
+    .scroll__down {
         display: none;
     }
 

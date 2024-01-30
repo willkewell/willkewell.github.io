@@ -3,6 +3,7 @@ import CV from '../../assets/W-Kewell-CV.pdf'
 import { RiGraduationCapLine } from "react-icons/ri";
 import { GrCertificate } from "react-icons/gr";
 import { GrFolder } from "react-icons/gr";
+import { GrDocumentDownload } from "react-icons/gr";
 import './about.css'
 
 const About = () => {
@@ -18,7 +19,7 @@ const About = () => {
                             <RiGraduationCapLine size={25}/>
                             <h4>Education</h4>
                             <small>2.1 Computer Science, University of Southampton</small>
-                            <h5 className='h5 h5-hidden'>Click to download CV</h5>
+                            <h5 className='h5 h5-hidden'><GrDocumentDownload />CV</h5>
                         </a>
                     </article>
                     <article className="about__card">
