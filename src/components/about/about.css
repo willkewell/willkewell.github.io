@@ -22,6 +22,11 @@
     /* width: max-content; */
 }
 
+.about__content {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -63,6 +68,11 @@
 @media screen and (max-width: 1024px) {
     .about__container {
         height: fit-content;
+    }
+
+    .about__content {
+        justify-content: center;
+        align-items: center;
     }
     .about__cards {
         grid-template-columns: 1fr;

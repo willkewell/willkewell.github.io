@@ -10,6 +10,7 @@
 
 .contact__container {
     /* height: 70vh; */
+    position: relative;
     display: flex;
     padding: 2.5rem 2.5rem;
     gap: 1.5rem;
@@ -68,6 +69,13 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-black);
     resize: none;
+}
+
+.contact__scroll__down {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -3rem;
+    bottom: 4rem;
 }
 
 /* MEDIA QUERIES (TABLET DEVICES) */
