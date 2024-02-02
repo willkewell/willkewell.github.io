@@ -34,7 +34,7 @@ const data = [
       title: 'Chatroom Webapp',
       github: 'https://github.com',
       demo: 'https://dribbble.com',
-      state: 'Planned'
+      state: 'WIP'
     },
     {
       id: 4,
