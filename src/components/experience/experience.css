@@ -69,6 +69,7 @@
     .experience__container {
         /* height: 80vh; */
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         padding: 1.5rem 1.5rem;
         font-size: 0.6rem;
     }

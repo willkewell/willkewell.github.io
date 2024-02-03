@@ -85,4 +85,8 @@
     .about__cards {
         padding: 1.5rem 1.5rem;
     }
+
+    .about__card small {
+        font-size: 0.6rem;
+    }
 }

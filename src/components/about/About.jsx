@@ -42,7 +42,7 @@ const About = () => {
                 </div>
 
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate maxime eaque sit repellat ipsa qui animi delectus consequatur quidem cumque!
+                I am an able and hardworking individual and have recently graduated from Southampton University achieving a 2.1 in Computer Science BSc.  My goal is to kickstart my career with a role in the world of software & development, working in a fast moving and energetic environment. Proficient programmer, eager to learn and develop my existing skills, passionate about all things programming.
                 </p>
 
                 <a href="#contact" className='btn btn-primary'>Learn More</a>

@@ -7,12 +7,10 @@ header {
 
 .header__container {
     height: 80vh;
-    padding: 0 2.5rem 0 2.5rem;
     align-items: center;
     justify-content: center;
     display: flex;
     position: relative;
-    /* gap: 4rem; */
 }
 
 .header__content {
@@ -20,10 +18,10 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-items: end;
+    /* justify-items: end; */
     text-align: right;
     position: relative;
-    padding-right: 2rem;
+    margin-right: 4rem;
 }
 
 /* CTA STYLING */
@@ -40,12 +38,7 @@ header {
     min-height: 0;
     height: 100%;
     width: 50%;
-    margin-left: 4rem;
     z-index: 2;
-}
-
-.header__content {
-    padding-right: 0;
 }
 
 .header__me-image {
@@ -54,6 +47,7 @@ header {
     top: 50%;
     transform: translateY(-50%);
     z-index: 2;
+    margin-right: 25%;
 }
 
 .header__me-image img{
@@ -66,19 +60,18 @@ header {
     background: transparent;
     border: 2px solid;
     width: 100%;
-    /* height: 500px; */
     padding-top: 100%;
-    left: -7.5%;
-    top: 5%;
+    left: -2.5rem;
+    top: 1.5rem;
     z-index: 1;
 }
 
 .header__container-deco {
     position: absolute;
     background: black;
-    width: 10%;
+    width: 12%;
     height: 100%;
-    right: 6%;
+    right: 7%;
     top: 0;
     z-index: 1;
 }
@@ -95,27 +88,24 @@ header {
 /* MEDIA QUERIES (TABLET DEVICES) */
 @media screen and (max-width: 1024px) {
     header {
-        /* height: 100vh; */
         padding-top: 2rem;
-        /* padding: 2rem; */
     }
 
     .header__container {
-        /* height: 80vh; */
-        display: flex;
         position: relative;
         flex-direction: column;
-        /* justify-content: center;/ */
+        justify-content: end;
         margin-top: 6rem;
-        gap: 1rem;
+        gap: 4rem;
     }
 
     .header__content {
         /* width: min-content; */
-        height: 30%;
+        height: 40%;
         text-align: center;
         margin: 0 2rem;
         /* margin-bottom: 2rem; */
+        justify-content: end;
     }
 
     .cta {
@@ -123,20 +113,22 @@ header {
     }
 
     .header__me {
-        height: 70%;
+        height: 60%;
+        width: auto;
         display: flex;
-        height: auto;
+        /* height: 50%; */
         /* padding-top: 4rem; */
         /* margin-top: 4rem; */
         margin-left: 0;
         /* position: relative; */
         justify-content: center;
-        align-items: start;
+        align-items: center;
     }
 
     .header__me-image {
-        display: flex;
-        max-width: 250px;
+        /* display: flex; */
+        margin: 0 4rem 12rem 4rem;
+        max-width: 400px;
     }
 
     .header__container-deco {
@@ -164,6 +156,14 @@ header {
 
     .header__container {
         padding-top: 0;
+    }
+
+    .header__content {
+        height: 50%;
+    }
+
+    .header__me {
+        height: 50%;
     }
 
     .scroll__down {
