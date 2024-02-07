@@ -79,6 +79,9 @@
 }
 
 .portfolio__item-WIP-status h4 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #ecc203;
     text-align: center;
 }
 
@@ -95,6 +98,9 @@
 }
 
 .portfolio__item-Planned-status h4 {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #ec7f03;
     text-align: center;
 }
 

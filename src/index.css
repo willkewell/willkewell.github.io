@@ -60,6 +60,7 @@ body {
     width: var(--container-width-lg);
     margin: 0 auto;
     box-shadow: 0px 20px 15px -10px var(--color-grey), 0px -20px 15px -10px var(--color-grey);
+    overflow: scroll;
 }
 
 h1, h2, h3, h4, h5 {
