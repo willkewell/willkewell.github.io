@@ -12,6 +12,7 @@ nav {
     bottom: 1rem; 
     /* gap: 0.8rem;   */
     /* backdrop-filter: blur(15px);  */
+    z-index: 4;
 }
 
 nav a {

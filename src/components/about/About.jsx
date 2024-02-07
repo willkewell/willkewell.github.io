@@ -9,7 +9,7 @@ import './about.css'
 const About = () => {
   return (
     <section id='about'>
-        <h2>About Me</h2>
+        <h2>About</h2>
         
         <div className="container about__container">
             <div className="about__content">
@@ -41,8 +41,14 @@ const About = () => {
                     
                 </div>
 
+                <h4>About Me</h4>
                 <p>
                 I am an able and hardworking individual and have recently graduated from Southampton University achieving a 2.1 in Computer Science BSc.  My goal is to kickstart my career with a role in the world of software & development, working in a fast moving and energetic environment. Proficient programmer, eager to learn and develop my existing skills, passionate about all things programming.
+                </p>
+
+                <h4>About This Website</h4>
+                <p>
+                    This website was built by me using React JS. I am always trying to learn new skills and improve my existing ones, and will be adding to this website and my github account regularly, so please check back for updates. If you would like to get in touch regarding a job opportunity or just to learn more, please download my CV or use the contact section at the bottom of the page to send me a message. I look forward to hearing from you soon!
                 </p>
 
                 <a href="#contact" className='btn btn-primary'>Learn More</a>
