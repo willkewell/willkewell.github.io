@@ -5,8 +5,7 @@
 }
 
 #portfolio > h2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .portfolio__container {
@@ -20,12 +19,20 @@
     border-color: var(--color-black);
 } */
 
+.portfolio__info {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.portfolio__info p {
+    font-size: 0.85rem;
+}
+
 .portfolio__items {
     /* height: 80vh; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: .5rem;
-    padding: 2.5rem 2.5rem;
+    padding: 0.5rem 2.5rem 1.5rem 2.5rem;
 }
 
 .portfolio__item {

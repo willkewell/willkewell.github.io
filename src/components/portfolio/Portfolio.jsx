@@ -52,6 +52,12 @@ const Portfolio = () => {
 
         <h2>My Recent Projects</h2>
         <div className="container portfolio__container">
+          <div className="portfolio__info">
+            <h4>About This Section</h4>
+            <p>
+              As stated above, I will be updating this section regularly with the projects I am working on. I wanted to keep the standard of these projects to a good level, practicing good programming practice and documentation. As such, this section is a work in progress. Check back regularly for updates!
+            </p>
+          </div>
             <div className="portfolio__items">
                 {
                     data.map(({id, image, title, github, demo, state}) => {

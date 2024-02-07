@@ -5,7 +5,7 @@
 }
 
 .about__container {
-    height: 70vh;
+    height: fit-content;
     padding-top: 5vh;
     padding-bottom: 5vh;
     position: relative;
@@ -34,7 +34,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding: 1.5rem 5rem;
+    padding: 0 5rem 1.5rem 5rem;
     width: fit-content;
 }
 
@@ -58,6 +58,7 @@
 
 .about__content p {
     padding-bottom: 1rem;
+    font-size: 0.85rem;
 }
 
 .about__scroll__down {
