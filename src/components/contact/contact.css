@@ -9,9 +9,10 @@
 }
 
 .contact__container {
-    height: 70vh;
+    /* height: 70vh; */
+    position: relative;
     display: flex;
-    padding: 0 2.5rem 0 2.5rem;
+    padding: 2.5rem 2.5rem;
     gap: 1.5rem;
 }
 
@@ -68,4 +69,33 @@ input, textarea {
     background: transparent;
     border: 2px solid var(--color-black);
     resize: none;
+}
+
+.contact__scroll__down {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -3rem;
+    bottom: 4rem;
+}
+
+/* MEDIA QUERIES (TABLET DEVICES) */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* MEDIA QUERIES (MOBILE DEVICES) */
+@media screen and (max-width: 600px) {
+    .contact__container {
+        flex-direction: column;
+        padding: 1.5rem 2.5rem;
+    }
+
+    .contact__me {
+        width: auto;
+    }
+
+    .contact__content {
+        padding-top: 0;
+        width: auto;
+    }
 }

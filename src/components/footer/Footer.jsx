@@ -5,7 +5,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
         <a href="#" className='footer__header'>William Kewell</a>
 
         <ul className='permalinks'>
