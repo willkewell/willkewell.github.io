@@ -1,12 +1,13 @@
 import React from 'react'
 // import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+// import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 import IMG1 from '../../assets/cv-site-portfolio-pic-crop.png'
+import IMG2 from '../../assets/sudoku-placeholder-img.png'
 
 import { GrStatusWarning } from "react-icons/gr";
 import './portfolio.css'
@@ -22,6 +23,14 @@ const data = [
     },
     {
       id: 2,
+      image: IMG2,
+      title: 'Java Sudoku Solver',
+      github: 'https://github.com/willkewell/JavaSudokuSolver',
+      demo: 'https://github.com/willkewell/JavaSudokuSolver',
+      state: 'complete'
+    },
+    {
+      id: 3,
       image: IMG4,
       title: 'Sockets Chess',
       github: 'https://github.com',
@@ -29,7 +38,7 @@ const data = [
       state: 'WIP'
     },
     {
-      id: 3,
+      id: 4,
       image: IMG5,
       title: 'Chatroom Webapp',
       github: 'https://github.com',
@@ -37,7 +46,7 @@ const data = [
       state: 'WIP'
     },
     {
-      id: 4,
+      id: 5,
       image: IMG6,
       title: 'Recipe Mobile App',
       github: 'https://github.com',
