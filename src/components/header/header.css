@@ -58,7 +58,7 @@ header {
 .header__me-deco {
     position: absolute;
     background: transparent;
-    border: 2px solid;
+    border: 2px solid var(--color-black);
     width: 100%;
     padding-top: 100%;
     left: -10%;
@@ -68,7 +68,7 @@ header {
 
 .header__container-deco {
     position: absolute;
-    background: black;
+    background: var(--color-black);
     width: 12%;
     height: 100%;
     right: 7%;

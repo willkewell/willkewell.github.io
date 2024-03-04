@@ -1,13 +1,12 @@
 import React from 'react'
-// import IMG1 from '../../assets/portfolio1.jpg'
-// import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 import IMG1 from '../../assets/cv-site-portfolio-pic-crop.png'
 import IMG2 from '../../assets/sudoku-placeholder-img.png'
+import IMG3 from '../../assets/websocket-chat-app-img-crop.png'
 
 import { GrStatusWarning } from "react-icons/gr";
 import './portfolio.css'
@@ -31,24 +30,32 @@ const data = [
     },
     {
       id: 3,
-      image: IMG4,
-      title: 'Sockets Chess',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com',
-      state: 'WIP'
+      image: IMG3,
+      title: 'WebSocket Chat Webapp',
+      github: 'https://github.com/willkewell/WebSocket-Chat-App',
+      demo: 'https://github.com/willkewell/WebSocket-Chat-App',
+      state: 'complete'
     },
     {
       id: 4,
-      image: IMG5,
-      title: 'Chatroom Webapp',
+      image: IMG4,
+      title: 'Java Chess',
       github: 'https://github.com',
       demo: 'https://dribbble.com',
       state: 'WIP'
     },
     {
       id: 5,
+      image: IMG5,
+      title: 'Road Incident Reporting Webapp',
+      github: 'https://github.com',
+      demo: 'https://dribbble.com',
+      state: 'WIP'
+    },
+    {
+      id: 6,
       image: IMG6,
-      title: 'Recipe Mobile App',
+      title: 'Recipe Management System',
       github: 'https://github.com',
       demo: 'https://dribbble.com',
       state: 'Planned'
