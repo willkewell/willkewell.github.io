@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.aad44e3b.css",
+    "main.css": "/static/css/main.ec05f155.css",
     "main.js": "/static/js/main.3f2e2fb6.js",
     "static/media/road-accident-analysis-app-img-crop.png": "/static/media/road-accident-analysis-app-img-crop.06e754bdccc981dcf46b.png",
     "static/media/cv-site-portfolio-pic-crop.png": "/static/media/cv-site-portfolio-pic-crop.6dd8acc98c9d88060a5c.png",
@@ -12,11 +12,11 @@
     "static/media/portfolio4.jpg": "/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "static/media/sudoku-placeholder-img.png": "/static/media/sudoku-placeholder-img.e511dfd6d1835ff2ee55.png",
     "index.html": "/index.html",
-    "main.aad44e3b.css.map": "/static/css/main.aad44e3b.css.map",
+    "main.ec05f155.css.map": "/static/css/main.ec05f155.css.map",
     "main.3f2e2fb6.js.map": "/static/js/main.3f2e2fb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.aad44e3b.css",
+    "static/css/main.ec05f155.css",
     "static/js/main.3f2e2fb6.js"
   ]
 }
