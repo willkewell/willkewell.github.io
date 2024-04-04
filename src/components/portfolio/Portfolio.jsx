@@ -4,60 +4,69 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
-import IMG1 from '../../assets/cv-site-portfolio-pic-crop.png'
-import IMG2 from '../../assets/sudoku-placeholder-img.png'
-import IMG3 from '../../assets/websocket-chat-app-img-crop.png'
+import IMGsite from '../../assets/cv-site-portfolio-pic-crop.png'
+import IMGsudo from '../../assets/sudoku-placeholder-img.png'
+import IMGchat from '../../assets/websocket-chat-app-img-crop.png'
+import IMGroadacc from '../../assets/road-accident-analysis-app-img-crop.png'
 
 import { GrStatusWarning } from "react-icons/gr";
 import './portfolio.css'
 
 const data = [
     {
-      id: 1,
-      image: IMG1,
-      title: 'CV / Portfolio Website',
-      github: 'https://github.com/willkewell/willkewell.github.io',
-      demo: 'https://willkewell.github.io',
-      state: 'complete'
-    },
-    {
-      id: 2,
-      image: IMG2,
-      title: 'Java Sudoku Solver',
-      github: 'https://github.com/willkewell/JavaSudokuSolver',
-      demo: 'https://github.com/willkewell/JavaSudokuSolver',
+      id: 5,
+      image: IMGroadacc,
+      title: 'Road Accident Analysis Webapp',
+      github: 'https://github.com/willkewell/road-accident-analysis-webapp',
+      demo: 'https://willkewell.github.io/road-accident-analysis-webapp/',
       state: 'complete'
     },
     {
       id: 3,
-      image: IMG3,
+      image: IMGchat,
       title: 'WebSocket Chat Webapp',
       github: 'https://github.com/willkewell/WebSocket-Chat-App',
       demo: 'https://github.com/willkewell/WebSocket-Chat-App',
       state: 'complete'
     },
     {
-      id: 4,
-      image: IMG4,
-      title: 'Java Chess',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com',
-      state: 'WIP'
+      id: 2,
+      image: IMGsudo,
+      title: 'Java Sudoku Solver',
+      github: 'https://github.com/willkewell/JavaSudokuSolver',
+      demo: 'https://github.com/willkewell/JavaSudokuSolver',
+      state: 'complete'
     },
     {
-      id: 5,
-      image: IMG5,
-      title: 'Road Incident Reporting Webapp',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com',
-      state: 'WIP'
+      id: 1,
+      image: IMGsite,
+      title: 'CV / Portfolio Website',
+      github: 'https://github.com/willkewell/willkewell.github.io',
+      demo: 'https://willkewell.github.io',
+      state: 'complete'
     },
     {
       id: 6,
       image: IMG6,
-      title: 'Recipe Management System',
+      title: 'Library Management System',
       github: 'https://github.com',
-      demo: 'https://dribbble.com',
+      demo: '',
+      state: 'WIP'
+    },
+    {
+      id: 4,
+      image: IMG4,
+      title: 'Java Chess',
+      github: 'https://github.com',
+      demo: '',
+      state: 'WIP'
+    },
+    {
+      id: 4,
+      image: IMG5,
+      title: 'Java Tetriz Brick Game',
+      github: 'https://github.com',
+      demo: '',
       state: 'Planned'
     }
   ]

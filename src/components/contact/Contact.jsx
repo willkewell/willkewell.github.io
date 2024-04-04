@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import ME from '../../assets/Me-Square.jpeg'
+import ME from '../../assets/graduation-alt-crop.jpg'
 import Socials from '../socials/Socials'
 import './contact.css'
 
